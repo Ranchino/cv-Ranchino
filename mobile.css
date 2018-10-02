@@ -78,6 +78,7 @@ header ul li > * {
 .page-content .image-text-centered {
     width: calc(100% + 2em) ;
     margin: -1em;
+    margin-top: 0.5em;
     position: relative;
 }
 
@@ -114,7 +115,7 @@ footer {
 .container {
     width: auto;
     border: 1px solid red;
-    text-align: left;
+    text-align: center;
 }
 
 .container img {
@@ -152,7 +153,9 @@ footer {
 
 .socialMediaContainer {
     width: 80%;
+    height: 17em;
     margin: 0 auto;
+    margin-top: 20px;
     text-align: center;
     border-top: 1px solid rgba(105, 110, 105, 0.3);
 }
@@ -223,13 +226,63 @@ header h3:hover {
 header h3:active {
     background: #2196F3;
     border: 1px solid black;
-    color: white !important;
+    color: white;
 }
 
 a:link {
     text-decoration: none;
 }
 
+.indexSection {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    border-bottom: 1px solid rgba(105, 110, 105, 0.3);
+
+}
+
+.indexH1 {
+    text-align: center;
+    width: 100%;
+    height: 1em;
+    font-size: 2em;
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.indexIntro {
+    background: lightblue;
+    border-radius: 5%;
+    border: 1px solid black;
+    width: 75%;
+    height: 9em;
+    margin-left: 2.7em;
+    margin-bottom: 1.2em;
+}
+
+.page2Info {
+    background: lightblue;
+    border-radius: 5%;
+    border: 1px solid black;
+    width: 100%;
+    height: 20%;
+    margin-left: 0em;
+    margin-bottom: 1.2em;
+}
+
+.indexIntro p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 1em;
+    width: 90%;
+    margin-left: 1em;
+    
+}
+
+.page2Info ul {
+    text-align: left;
+    font-size: bolder 1em;
+}
 
 
 
